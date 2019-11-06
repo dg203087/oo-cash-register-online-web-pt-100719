@@ -44,9 +44,8 @@ class CashRegister
   end
   
   def void_last_transaction
-    while @total >= @last_transaction
-       puts @total -= @last_transaction
-    end
+    
+    @total >= @last_transaction
   end
 
 end 
